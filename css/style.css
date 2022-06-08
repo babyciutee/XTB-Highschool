@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .f-list {
+    background-color: skyblue;
+    line-height: 50px;
+    font-size: 15px;
+    width: 100%;
+}
+
+header .f-list ul {
+    text-align: center;
+}
+
+header .f-list li {
+    display: inline-block;
+    width: 12.27%;
+}
+
+header .f-list li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+}
+
+header .f-list li a:hover {
+    text-decoration: underline;
+    background-color: white;
+    color: skyblue;
+}
+
+form {
+    position: relative;
+    margin: 3px;
+    z-index: 1;
+}
+
+form input {
+    width: 820px;
+    height: 40px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 4px 4px gray;
+    border: 1px solid grey;
+}
+
+form input:focus {
+    border: none;
+    outline: none;
+    box-shadow: 3px 3px 3px 3px gray;
+}
+
+form button {
+    border-radius: 10px;
+    text-align: center;
+    line-height: 20px;
+    width: 60px;
+    height: 40px;
+    border: 1px solid silver;
+    color: slategray;
+    box-shadow: 4px 4px grey;
+}
+
+form button:hover {
+    color: white;
+    background-color: grey;
+    box-shadow:  1.5px inset gray;
+}
+
+.banner img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+article h2 {
+    color: black;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.col {
+    width: 33.3%;
+    float: left;
+}
+
+.news {
+    border: 1px solid grey;
+    padding: 5px;
+    margin: 10px 4px;
+    height: 420px;
+}
+
+.news img {
+    width: 100%;
+}
+
+.news a {
+    display: block;
+    margin: 4px;
+    text-decoration: none;
+}
+
+.news a:hover {
+    color: skyblue;
+    text-decoration: underline;
+}
+
+.news p {
+    margin: 4px;
+}
+
+.embed p {
+    margin: 5px 0;
+}
+
+footer {
+    background-color: skyblue;
+    line-height: 25px;
+}
+
+footer p {
+    text-align: center;
+    color: black;
+}
+
+/* menu con */
+#gioithieu {
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    width: 178px;
+    display: none;
+    z-index: 2;
+}
+
+#gioithieu li {
+    width: 100%;
+    text-align: left;
+}
+
+nav li:hover #gioithieu {
+    display: block;
+    background-color: skyblue;
+    color: #fff;
+}
+
+#thongbao {
+    font-size: 15px;
+    background-color: #fff;
+    color: black;
+    position: absolute;
+    width: 178px;
+    display: none;
+    z-index: 2;
+}
+
+#thongbao li {
+    width: 100%;
+    text-align: left;
+}
+
+nav li:hover #thongbao {
+    display: block;
+    background-color: skyblue;
+    color: #fff;
+}
+
+#hoatdong {
+    font-size: 15px;
+    background-color: #fff;
+    color: black;
+    position: absolute;
+    width: 178px;
+    display: none;
+    z-index: 2;
+}
+
+#hoatdong li {
+    width: 100%;
+    text-align: left;
+}
+
+nav li:hover #hoatdong {
+    display: block;
+    background-color: skyblue;
+    color: white;
+}
+
+#tainguyen {
+    font-size: 15px;
+    background-color: #fff;
+    color: black;
+    position: absolute;
+    width: 178px;
+    display: none;
+    z-index: 2;
+}
+
+#tainguyen li {
+    width: 100%;
+    text-align: left;
+}
+
+nav li:hover #tainguyen {
+    display: block;
+    background-color: skyblue;
+    color: #fff;
+}
+
+#tracuu {
+    font-size: 15px;
+    background-color: #fff;
+    color: black;
+    position: absolute;
+    width: 178px;
+    display: none;
+    z-index: 2;
+}
+
+#tracuu li {
+    width: 100%;
+    text-align: left;
+}
+
+nav li:hover #tracuu {
+    display: block;
+    background-color: skyblue;
+    color: #fff;
+}
+
+.news-marquee {
+    padding: 10px 0;
+    font-size: 15px;
+}
